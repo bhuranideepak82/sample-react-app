@@ -37,6 +37,56 @@
   padding: 2em;
 }
 
+.card button.fun {
+  margin-top: 1rem;
+  background: #a67cff;
+  border: none;
+  border-radius: 999px;
+  color: white;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  transition: filter 200ms;
+}
+
+.card button.fun:hover {
+  filter: brightness(1.15);
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
+  max-width: 90vw;
+  width: 420px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.modal button {
+  margin-top: 1.25rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  background: #646cff;
+  color: white;
+  cursor: pointer;
+}
+
+.modal button:hover {
+  filter: brightness(1.1);
+}
+
 .read-the-docs {
   color: #888;
 }
