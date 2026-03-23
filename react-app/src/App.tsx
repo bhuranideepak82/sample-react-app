@@ -21,6 +21,9 @@ function App() {
         <button onClick={() => setCount((count) => count + 5)}>
           count is {count}
         </button>
+        <button onClick={() => setCount((count) => count + 100)}>
+          Hit me to add 100
+        </button>
         <button className="fun" onClick={() => setIsModalOpen(true)}>
           click me for more fun
         </button>
